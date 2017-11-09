@@ -1,0 +1,14 @@
+{
+  "name": "product-view-angular",
+  "version": "1.0.0",
+  "description": "an angular view for an inventory system",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "author": "paldrooler@gmail.com",
+  "license": "MIT"
+}
