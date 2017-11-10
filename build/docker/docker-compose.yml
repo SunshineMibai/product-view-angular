@@ -1,6 +1,6 @@
 version: "2"
 services:
-  app:
+  product-view-angular:
     container_name: product-view-angular
     restart: always
     build: 
@@ -14,7 +14,7 @@ services:
       - NODE_ENV=prod 
   product-service: 
     container_name: product-service
-    image: paldrooler/product-service
+    image: paldrooler/product-service:0.0.1
     restart: always
     ports: 
       - 3000:3000

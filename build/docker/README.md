@@ -15,7 +15,7 @@ A directory full of handy docker scripts to execute building, composing and rele
 
 ### Stand Alone Docker
 
-You can spin up a docker container by executing the docker build in the root directory that has no datasources attached and fails gracefully.
+You can spin up a docker container by executing the docker build in the root directory that has no datasources attached and attempts to fail gracefully.
 
 ```shell
 docker build -t product-view-angular:latest -f build/docker/Dockerfile .
@@ -25,5 +25,5 @@ docker build -t product-view-angular:latest -f build/docker/Dockerfile .
 
 A docker compose file has been included that expects to find:
 
-* A docker image in the local repo for ```paldrooler/product-service``` (not on dockerhub)
+* A docker image in the local repo for ```paldrooler/product-service:version``` (not on dockerhub)
 * Access to docker hub to be able to pull the MongoDB image (on dockerhub)
