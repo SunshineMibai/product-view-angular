@@ -25,6 +25,9 @@ services:
   mongodb:
     container_name: mongodb
     image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=productservice
+      - MONGO_INITDB_ROOT_PASSWORD=changeme
     #volumes:
     #  - ./data:/data/db
     ports:
