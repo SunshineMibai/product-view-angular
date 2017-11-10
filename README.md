@@ -19,7 +19,7 @@ The following technologies are explored in this and associated samples:
 Version | Description
 --------|------------
 0.0.1 | basic example that allows the app to stand up and display itself with two integration options (no data source, or the REST datasource)
-0.0.2 | Added better doco
+0.0.2 | Added better doco, added mongodb creds
 
 
 ## TODO
